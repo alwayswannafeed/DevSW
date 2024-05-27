@@ -8,6 +8,12 @@ def simple(x):
         if x%i==0:
             return False
     return True
+def stepin5(x):
+    while x%5==0:
+        x=x//5
+    if x==1:
+        return True
+    return False
 
 
 
